@@ -1,18 +1,18 @@
 # Animated Webite Using *first project*.
 
-> - ## **`LANGUAGES`**:
+> - ## ** LANGUAGES **:
 
     - ** HTML **
     - ** CSS **
 
-> - ## **`CONTACT`**:
+> - ## ** CONTACT **:
 
     - Name : *MOHAMED SIDRY*
-    - Email : **[CONTACT](<mohamed.sidry1999@gmail.com>)**
+    - Email : **<mohamed.sidry1999@gmail.com>**
 
 ***
 
-> - ## **`PROJECT`**:
+> - ## ** PROJECT **:
 
     - In this project i am trying to apply what i have learned in 10 days .
 
