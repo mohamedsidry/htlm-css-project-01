@@ -8,7 +8,7 @@
 > - ##  CONTACT 
 
 - Name = *MOHAMED SIDRY*
-- Email = **[CONATCT](<mohamed.sidry1999@gmail.com>)**
+- Email = **`<mohamed.sidry1999@gmail.com>`**
 
 ***
 
