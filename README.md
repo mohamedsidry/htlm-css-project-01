@@ -19,4 +19,5 @@
 >> - ### project progress 
 >
 >  - init project .
+>  - horse riding index page with navbar content and feature image animated element **nonresponsive** .
 
