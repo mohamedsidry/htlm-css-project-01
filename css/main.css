@@ -1,7 +1,7 @@
 /**
 @import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@1,700&display=swap');
  font-family: 'Caudex', serif;**/
- 
+
 @import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
 /** font-family: 'Baumans', cursive; **/
 
@@ -22,4 +22,88 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Baumans' , cursive;
+}
+
+a{
+    text-decoration: none;
+    color: var(--frd-col);
+}
+a:hover{
+    font-weight: bolder;
+    color: #000000;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    position: relative;
+    background: linear-gradient(#c45d3e,#ee7c4b,#f5f0c4);
+}
+
+
+.nav-bar{
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-rows: auto;
+    grid-template-columns: auto 1fr auto;
+    padding: 0px 5%;
+}
+
+.nav-bar li{
+    display: inline;
+    margin: 0px 15px;
+}
+
+/** HERO STYLE **/
+
+
+.hero-section{
+    position: relative;
+    grid-area: hero;
+    display: grid;
+    grid-template-columns: repeat(12,calc(100%/12));
+    grid-template-areas: ". text-content text-content text-content text-content text-content . img-content img-content img-content img-content .";
+    align-items: center;
+}
+
+
+.hero-section .text-content{
+    grid-area: text-content;
+    position: relative;
+    min-width: 200px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.hero-section .social-ref  {
+    display: inline-block;
+    filter: grayscale(100%);
+}
+.social-ref:hover{
+    filter: grayscale(0%);
+}
+
+.hero-section .img-content{
+    grid-area: img-content;
+    position: relative;
+    min-width: 300px;
+    width: 100%;
+}
+
+.feature-img{
+/**/
+width: 100%;
 }
