@@ -5,45 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webtitile | title ...</title>
     <link rel="shortcut icon" href="/resourses/favicon-64.png" type="image/x-icon">
-
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <div class="hero">
+    <div class="main-container">
         <nav class="nav-bar">
-            <div class="brand">
-                <div class="brand-logo">
-                    <a href="/">
-                        <img src="/resourses/favicon.png" alt="horse riding logo">
-                    </a>
-                </div>
-                <div class="brand-name">
-                    <a href="/">HORSERIDE</a>
-                </div>
+            <div class="brand flex-center">
+                <a class="brand-logo" href="#">
+                    <img src="/resourses/favicon-64.png" alt="brand-logo">
+                </a>
+                <a href="" class="brand-name">HORSE RIDING</a>
             </div>
-            <div class="nav-links">
-                <ul class="list-link">
-                    <li class="nav-link"><a href="#">HOME</a></li>
-                    <li class="nav-link"><a href="#">SERVICES</a></li>
-                    <li class="nav-link"><a href="#">ABOUT</a></li>
-                    <li class="nav-link"><a href="#">CONTACT</a></li>
-                    <li class="nav-link"><a href="#">PRIVACY</a></li>
+            <div class="nav-links flex-center">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">PRIVACY</a></li>
                 </ul>
             </div>
             <div class="actions">
-                <a class="join-btn" href="#">JOIN</a>
-                <a class="contact-btn" href="#">CONATCT US</a>
-                
+                <a href="#" class="btn-conatct-us">CONATCT US</a>
+                <a href="#" class="action">ACTION</a>
             </div>
         </nav>
-        <div class="content">
-            <h1 class="animated-up">HORSE RIDING</h1>
-            <p class="animated-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente saepe eius provident sint voluptatem! Dolorum, eius nesciunt! Reprehenderit, ut labore.</p>
-            <a  class="contact-btn animated-to-right" href="#"> CONTACT US</a>
-        </div>
-        <img src="/resourses/horse-img-530.png" alt="hores image" class="feature-img animated-up">
-    </div>
 
+        <section class="hero-section">
+            <div class="text-content">
+                <h1 class="brand-name">HORSE RIDING</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore? Consequuntur quaerat inventore iusto eaque eligendi, assumenda ducimus nisi, earum dolorem quae quasi itaque perferendis et odit eos libero sapiente excepturi, voluptates aspernatur repellendus voluptas quam voluptatibus ab! Aliquid recusandae iste voluptatibus obcaecati dolore repellendus deserunt quisquam quasi. Ratione, voluptatibus.</p>
+                <a href="#" class="btn-conatct-us">CONATCT US</a>
+                <div class="media-icons">
+                    <ul>
+                        <li class="social-ref ">
+                            <a href="#"><img title="facebook" src="/resourses/facebook.png" alt="facebook"></a>
+                        </li>
+                        <li class="social-ref">
+                            <a href="#"><img title="instagram" src="/resourses/instagram.png" alt="instagram"></a>
+                        </li>
+                        <li class="social-ref ">
+                            <a href="#"><img title="twitter" src="/resourses/twitter.png" alt="twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-content">
+                <img src="/resourses/horse-img-530.png" alt="horse image" class="feature-img">
+            </div>
+        </section>
+    </div>
+    <!--JAVASCRIPT FILES -->
     <script src="/js/main.js"></script>
 </body>
 </html>
